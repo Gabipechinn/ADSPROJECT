@@ -302,6 +302,51 @@ outline: none;
     width: 80%;
 }
 
+.button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+.button-container a {
+    display: inline-block;
+    border: none;
+    border-radius: 50%; /* Torna o botão redondo */
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.whatsapp-button {
+    background-color: #29b100; /* Cor verde do WhatsApp */
+}
+
+.whatsapp-button:hover {
+    background-color: #29b100; /* Cor verde mais escura para o hover */
+}
+
+.instagram-button {
+    background-color: #C13584; /* Cor rosa do Instagram */
+}
+
+.instagram-button:hover {
+    background-color: #C13584; /* Cor rosa mais escura para o hover */
+}
+
+.button-container img {
+    width: 300%;
+    height: 200%;
+    border-radius: 60px;
+}
+
 /*mobile*/
 
 @media screen and (max-width: 768px) {
